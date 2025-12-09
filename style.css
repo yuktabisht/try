@@ -12,25 +12,6 @@ body {
 }
 
 
-/* Loader styles */
-#loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000c1d; /* Or any background color you want */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999999999;
-}
-
-#loader.fade-out {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease;
-}
 
 #up-btn {
   position: fixed;
@@ -985,4 +966,5 @@ a{
 		line-height:1.5;
 		font-size:0.45rem;
 	}
+
 }
